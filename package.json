@@ -1,0 +1,19 @@
+{
+  "name": "telegram-bot-chanel-subscribe",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "node bot.js",
+    "start": "nodemon bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1",
+    "telegraf": "^4.16.3"
+  }
+}
